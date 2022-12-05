@@ -1,9 +1,11 @@
 <script>
-// export default {
-// }
+export default {
+    name: "AppMain",
+};
 </script>
 
 <template>
+    
 </template>
 
 <style scoped></style>
