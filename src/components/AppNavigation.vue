@@ -1,0 +1,44 @@
+<script>
+export default {
+    name: "AppNavigation",
+};
+</script>
+
+<template>
+    <div class="container">
+        <div class="row-nav">
+            <nav>
+                <ul>
+                    <li>GADGETS</li>
+                    <li>PHOTOGRAPHY</li>
+                    <li>LIFESTYLE</li>
+                    <li>FASHION</li>
+                    <li>RECIPES</li>
+                    <li>TRAVEL</li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</template>
+
+<style scoped>
+.container{
+    box-sizing: border-box;
+    margin: auto;
+    padding: 20px;
+    width: 1400px;
+    background-color: #0088cc;
+}
+
+.row-nav > nav > ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    list-style: none;
+    color: #fff;
+    background-color: #212529;
+    padding: 20px 45px;
+}
+</style>

@@ -55,6 +55,7 @@ export default {
 }
 .container{
     width: 1400px;
+    background-color: #f7f7f7;
 }
 
 .row-news{
