@@ -42,7 +42,7 @@ export default {
                             <img src="../assets/images/blog-65.jpg" alt="">
                         </div>
                         <div class="description">
-                            <h2>How to Make Friends as a Grown-Up</h2>
+                            <h2>Simple Ways to Have a Pretty Face</h2>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, dolore. Rem molestiae laudantium dolor doloribus, delectus nisi. Aliquam, magni possimus cum laborum eligendi explicabo? Ab laborum sequi provident nesciunt et? Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis cum laudantium harum.</p>
                             <div class="row-info-btn">
                                 <div class="list">
@@ -68,8 +68,8 @@ export default {
                             <img src="../assets/images/blog-65.jpg" alt="">
                         </div>
                         <div class="description">
-                            <h2>How to Make Friends as a Grown-Up</h2>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, dolore. Rem molestiae laudantium dolor doloribus, delectus nisi. Aliquam, magni possimus cum laborum eligendi explicabo? Ab laborum sequi provident nesciunt et? Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis cum laudantium harum. Sunt laborum architecto possimus, nobis nesciunt saepe quam, eos qui, distinctio numquam cupiditate inventore aspernatur. Modi, sapiente fugit?</p>
+                            <h2>Ranking the gratest players in basketball</h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, dolore. Rem molestiae laudantium dolor doloribus, delectus nisi. Aliquam, magni possimus cum laborum eligendi explicabo? Ab laborum sequi provident nesciunt et? Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis cum laudantium harum.</p>
                             <div class="row-info-btn">
                                 <div class="list">
                                     <ul>
@@ -97,8 +97,8 @@ export default {
                             <img src="../assets/images/blog-65.jpg" alt="">
                         </div>
                         <div class="description">
-                            <h2>How to Make Friends as a Grown-Up</h2>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, dolore. Rem molestiae laudantium dolor doloribus, delectus nisi. Aliquam, magni possimus cum laborum eligendi explicabo? Ab laborum sequi provident nesciunt et? Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis cum laudantium harum. Sunt laborum architecto possimus, nobis nesciunt saepe quam, eos qui, distinctio numquam cupiditate inventore aspernatur. Modi, sapiente fugit?</p>
+                            <h2>Top Camper Trailer Towing Tips</h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, dolore. Rem molestiae laudantium dolor doloribus, delectus nisi. Aliquam, magni possimus cum laborum eligendi explicabo? Ab laborum sequi provident nesciunt et? Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis cum laudantium harum.</p>
                             <div class="row-info-btn">
                                 <div class="list">
                                     <ul>
@@ -150,7 +150,7 @@ export default {
             <img src="../assets/images/blog-65.jpg" alt="">
         </div>
         <div class="description">
-            <h2>How to Make Friends as a Grown-Up</h2>
+            <h2>10 Best Travel Tips After 5 Years Traveling The World</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam, dolore. Rem molestiae laudantium dolor doloribus, delectus nisi. Aliquam, magni possimus cum laborum eligendi explicabo? Ab laborum sequi provident nesciunt et? Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis cum laudantium harum. Sunt laborum architecto possimus, nobis nesciunt saepe quam, eos qui, distinctio numquam cupiditate inventore aspernatur. Modi, sapiente fugit?</p>
             <div class="row-info-btn">
                 <div class="list">
