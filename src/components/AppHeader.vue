@@ -5,7 +5,8 @@ export default {
 </script>
 
 <template>
-    <div class="container">
+    <section>
+        <div class="container">
         <div class="header-top">
             <span>Everything about Lifestyle, Travel and Gadgets!</span>
             <nav>
@@ -17,21 +18,27 @@ export default {
                 </ul>
             </nav>
         </div>
-        <div class="header">
+    </div>
+    </section>
+
+    <section class="list">
+        <div class="container">
+            <div class="header">
             <img src="../assets/images/logo-default-slim.png" alt="">
             <nav>
                 <ul>
-                    <li>HOME</li>
-                    <li>ELEMENTS</li>
-                    <li>FEATURES</li>
-                    <li>PAGES</li>
-                    <li>PORTFOLIO</li>
-                    <li>BLOG</li>
-                    <li>SHOP</li>
+                    <li><h3>HOME</h3></li>
+                    <li><h3>ELEMENTS</h3></li>
+                    <li><h3>FEATURES</h3></li>
+                    <li><h3>PAGES</h3></li>
+                    <li><h3>PORTFOLIO</h3></li>
+                    <li><h3>BLOG</h3></li>
+                    <li><h3>SHOP</h3></li>
                 </ul>
             </nav>
         </div>
-    </div>
+        </div>
+    </section>
 </template>
 
 <style scoped>
@@ -41,13 +48,23 @@ export default {
     margin: auto;
     padding: 0;
 }
+
+section{
+    background-color: #0088CC;
+}
+
+.list{
+    background-color: #fff;
+}
 .container{
     width: 1400px;
 }
 .header-top{
     display: flex;
     align-items: center;
-    background-color: #0088CC;
+    /* background-color: #0088CC; */
+    padding: 20px;
+    color: #fff;
 }
 
 ul{
@@ -61,5 +78,15 @@ li{
 
 img{
     width: 100px;
+    padding: 40px 0;
+}
+
+.header > nav{
+    border-top: 1px solid lightgrey;
+    padding: 25px 0;
+}
+
+.header > nav > ul > li:first-child{
+    color: #0088CC;
 }
 </style>

@@ -5,28 +5,36 @@ export default {
 </script>
 
 <template>
-    <div class="container">
+    <section>
+        <div class="container">
         <div class="row-nav">
             <nav>
                 <ul>
+                    <li><font-awesome-icon icon="fa-regular fa-chevron-left" /></li>
                     <li>GADGETS</li>
                     <li>PHOTOGRAPHY</li>
                     <li>LIFESTYLE</li>
                     <li>FASHION</li>
                     <li>RECIPES</li>
                     <li>TRAVEL</li>
+                    <li><font-awesome-icon icon="fa-regular fa-chevron-right" /></li>
                 </ul>
             </nav>
         </div>
     </div>
+    </section>
 </template>
 
 <style scoped>
 .container{
     box-sizing: border-box;
-    margin: auto;
+    margin: 50px auto;
     padding: 20px;
     width: 1400px;
+    /* background-color: #0088cc; */
+}
+
+section{
     background-color: #0088cc;
 }
 

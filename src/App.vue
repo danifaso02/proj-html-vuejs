@@ -21,4 +21,7 @@ export default {
 </template>
 
 <style scoped>
+*{
+  font-family: 'Poppins', sans-serif;
+}
 </style>

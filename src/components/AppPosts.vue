@@ -11,45 +11,45 @@ export default {
 
                 <h4>POPULAR POST</h4>
                 <div class="post">
-                        <img src="../assets/images/blog-46.jpg" alt="">
+                        <img src="../assets/images/blog-55.jpg" alt="">
                     <div class="popular-description">
-                        <span>Simple ways to have a pretty face</span>
+                        <span>Simple Ways to Have a Pretty Face</span>
                         <br>
                         <small>January 12, 2019</small>
                     </div> 
                 </div>
 
                 <div class="post">
-                        <img src="../assets/images/blog-46.jpg" alt="">
+                        <img src="../assets/images/blog-56.jpg" alt="">
                     <div class="popular-description">
-                        <span>Simple ways to have a pretty face</span>
+                        <span>Ranking the greatest players in basketball</span>
                         <br>
                         <small>January 12, 2019</small>
                     </div> 
                 </div>
 
                 <div class="post">
-                        <img src="../assets/images/blog-46.jpg" alt="">
+                        <img src="../assets/images/blog-57.jpg" alt="">
                     <div class="popular-description">
-                        <span>Simple ways to have a pretty face</span>
+                        <span>4 Ways to Look Cool in Glasses</span>
                         <br>
                         <small>January 12, 2019</small>
                     </div> 
                 </div>
 
                 <div class="post">
-                        <img src="../assets/images/blog-46.jpg" alt="">
+                        <img src="../assets/images/blog-58.jpg" alt="">
                     <div class="popular-description">
-                        <span>Simple ways to have a pretty face</span>
+                        <span>Top Camper Trailer Towing Tips</span>
                         <br>
                         <small>January 12, 2019</small>
                     </div> 
                 </div>
 
                 <div class="post">
-                        <img src="../assets/images/blog-46.jpg" alt="">
+                        <img src="../assets/images/blog-59.jpg" alt="">
                     <div class="popular-description">
-                        <span>Simple ways to have a pretty face</span>
+                        <span>5 Lovely Walks in New York</span>
                         <br>
                         <small>January 12, 2019</small>
                     </div> 
@@ -62,45 +62,45 @@ export default {
 
                 <h4>RECENT POST</h4>
                 <div class="post">
-                        <img src="../assets/images/blog-46.jpg" alt="">
+                        <img src="../assets/images/blog-65.jpg" alt="">
                     <div class="popular-description">
-                        <span>Simple ways to have a pretty face</span>
+                        <span>Main Reasons To Stop Texting And Driving</span>
                         <br>
                         <small>January 12, 2019</small>
                     </div> 
                 </div>
 
                 <div class="post">
-                        <img src="../assets/images/blog-46.jpg" alt="">
+                        <img src="../assets/images/blog-66 (1).jpg" alt="">
                     <div class="popular-description">
-                        <span>Simple ways to have a pretty face</span>
+                        <span>Tips to Help You Quickly Prepare your Lunch</span>
                         <br>
                         <small>January 12, 2019</small>
                     </div> 
                 </div>
 
                 <div class="post">
-                        <img src="../assets/images/blog-46.jpg" alt="">
+                        <img src="../assets/images/blog-67.jpg" alt="">
                     <div class="popular-description">
-                        <span>Simple ways to have a pretty face</span>
+                        <span>Why should I buy a smartwatch?</span>
                         <br>
                         <small>January 12, 2019</small>
                     </div> 
                 </div>
 
                 <div class="post">
-                        <img src="../assets/images/blog-46.jpg" alt="">
+                        <img src="../assets/images/blog-68.jpg" alt="">
                     <div class="popular-description">
-                        <span>Simple ways to have a pretty face</span>
+                        <span>The best augmented reality smartglasses</span>
                         <br>
                         <small>January 12, 2019</small>
                     </div> 
                 </div>
 
                 <div class="post">
-                        <img src="../assets/images/blog-46.jpg" alt="">
+                        <img src="../assets/images/blog-69.jpg" alt="">
                     <div class="popular-description">
-                        <span>Simple ways to have a pretty face</span>
+                        <span>12 Healthiest Foods to Eat for Breakfast</span>
                         <br>
                         <small>January 12, 2019</small>
                     </div> 
@@ -111,18 +111,21 @@ export default {
 
                 <h4>FEATURED POST</h4>
                 <div class="featured-post">
-                    <img src="../assets/images/blog-46.jpg" alt="">
-                    <h5>title</h5>
+                    <img src="../assets/images/blog-66.jpg" alt="">
+                    <div class="featured-description">
+                        <span>RECIPES</span>
+                        <h3>Tips to Help You Quickly Prepare your Lunch</h3>
+                    </div>
                 </div>
 
                 <h4>FEATURED AUTHOR</h4>
                 <div class="featured-author">
                     <div class="author-image">
-                        <img src="../assets/images/blog-46.jpg" alt="">
+                        <img src="../assets/images/avatar.jpg" alt="">
                     </div>
                     <div class="description-author">
                         <h4>John Doe</h4>
-                        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia iste odit nulla, incidunt perspiciatis culpa minus fugit ad? Dignissimos magnam vel laborum earum accusantium explicabo amet repellendus harum vero beatae!</small>
+                        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia iste odit nulla, incidunt perspiciatis culpa minus fugit ad?</small>
                     </div>
                 </div>
             </div>
@@ -158,7 +161,7 @@ export default {
 .post{
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .post > img{
@@ -166,9 +169,28 @@ export default {
     height: 45px;
 }
 
+.featured-post{
+    position: relative;
+    color: #fff;
+}
+
+.featured-description{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.featured-description > span{
+    background-color: #0088cc;
+    padding: 5px;
+    border-radius: 5px;
+}
 .featured-post > img{
     width: 100%;
-    height: 200px;
+}
+
+.popular-description{
+    margin-left: 10px;
 }
 
 .featured-author{
@@ -184,7 +206,12 @@ export default {
     width: 100%;
 }
 .description-author{
+    padding-left: 20px;
     width: 70%;
+}
+
+.description-author > h4{
+    margin: 5px 0;
 }
 
 </style>
